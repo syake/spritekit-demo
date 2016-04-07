@@ -7,7 +7,7 @@ SpriteKit を扱ったデモ for swift
 * SKActionで実行や繰り返し処理の制御
 * 重力を設定したジャンプアクション
 
-　![](https://raw.github.com/wiki/syake/swift-demo/images/20150520172404.png?1)
+　![](https://github.com/syake/spritekit-demo/wiki/images/20150520172404.png?1)
 
 　※素材提供: [オオバコ](http://www.geocities.jp/zassoh2/index.htm "雑草小屋 りたーんず")
 
@@ -17,7 +17,7 @@ SpriteKit を扱ったデモ for swift
 * ジャイロスコープによる重力切り替え
 * 個々のオブジェクトのUserDataにenergy値を持たせて自身を消す処理
 
-　![](https://raw.github.com/wiki/syake/swift-demo/images/20150520172420.png?1)
+　![](https://github.com/syake/spritekit-demo/wiki/images/20150520172420.png?1)
 
 ## FlickDemo
 
