@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E26B511B1AB5F6006AF5BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E26B501B1AB5F6006AF5BB /* AppDelegate.swift */; };
+		54E26B531B1AB5F6006AF5BB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 54E26B521B1AB5F6006AF5BB /* GameScene.sks */; };
+		54E26B551B1AB5F6006AF5BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E26B541B1AB5F6006AF5BB /* GameScene.swift */; };
+		54E26B571B1AB5F6006AF5BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E26B561B1AB5F6006AF5BB /* GameViewController.swift */; };
+		54E26B5A1B1AB5F6006AF5BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E26B581B1AB5F6006AF5BB /* Main.storyboard */; };
+		54E26B5C1B1AB5F6006AF5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E26B5B1B1AB5F6006AF5BB /* Images.xcassets */; };
+		54E26B5F1B1AB5F6006AF5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E26B5D1B1AB5F6006AF5BB /* LaunchScreen.xib */; };
+		54E26B6B1B1AB5F6006AF5BB /* Vector2DDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E26B6A1B1AB5F6006AF5BB /* Vector2DDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54E26B651B1AB5F6006AF5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54E26B431B1AB5F6006AF5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54E26B4A1B1AB5F6006AF5BB;
+			remoteInfo = Vector2DDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54E26B4B1B1AB5F6006AF5BB /* Vector2DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vector2DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E26B4F1B1AB5F6006AF5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E26B501B1AB5F6006AF5BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54E26B521B1AB5F6006AF5BB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		54E26B541B1AB5F6006AF5BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		54E26B561B1AB5F6006AF5BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		54E26B591B1AB5F6006AF5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54E26B5B1B1AB5F6006AF5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54E26B5E1B1AB5F6006AF5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		54E26B641B1AB5F6006AF5BB /* Vector2DDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vector2DDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E26B691B1AB5F6006AF5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E26B6A1B1AB5F6006AF5BB /* Vector2DDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2DDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E26B481B1AB5F6006AF5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E26B611B1AB5F6006AF5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E26B421B1AB5F6006AF5BB = {
+			isa = PBXGroup;
+			children = (
+				54E26B4D1B1AB5F6006AF5BB /* Vector2DDemo */,
+				54E26B671B1AB5F6006AF5BB /* Vector2DDemoTests */,
+				54E26B4C1B1AB5F6006AF5BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54E26B4C1B1AB5F6006AF5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54E26B4B1B1AB5F6006AF5BB /* Vector2DDemo.app */,
+				54E26B641B1AB5F6006AF5BB /* Vector2DDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54E26B4D1B1AB5F6006AF5BB /* Vector2DDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54E26B501B1AB5F6006AF5BB /* AppDelegate.swift */,
+				54E26B521B1AB5F6006AF5BB /* GameScene.sks */,
+				54E26B541B1AB5F6006AF5BB /* GameScene.swift */,
+				54E26B561B1AB5F6006AF5BB /* GameViewController.swift */,
+				54E26B581B1AB5F6006AF5BB /* Main.storyboard */,
+				54E26B5B1B1AB5F6006AF5BB /* Images.xcassets */,
+				54E26B5D1B1AB5F6006AF5BB /* LaunchScreen.xib */,
+				54E26B4E1B1AB5F6006AF5BB /* Supporting Files */,
+			);
+			path = Vector2DDemo;
+			sourceTree = "<group>";
+		};
+		54E26B4E1B1AB5F6006AF5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E26B4F1B1AB5F6006AF5BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54E26B671B1AB5F6006AF5BB /* Vector2DDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54E26B6A1B1AB5F6006AF5BB /* Vector2DDemoTests.swift */,
+				54E26B681B1AB5F6006AF5BB /* Supporting Files */,
+			);
+			path = Vector2DDemoTests;
+			sourceTree = "<group>";
+		};
+		54E26B681B1AB5F6006AF5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54E26B691B1AB5F6006AF5BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54E26B4A1B1AB5F6006AF5BB /* Vector2DDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E26B6E1B1AB5F6006AF5BB /* Build configuration list for PBXNativeTarget "Vector2DDemo" */;
+			buildPhases = (
+				54E26B471B1AB5F6006AF5BB /* Sources */,
+				54E26B481B1AB5F6006AF5BB /* Frameworks */,
+				54E26B491B1AB5F6006AF5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vector2DDemo;
+			productName = Vector2DDemo;
+			productReference = 54E26B4B1B1AB5F6006AF5BB /* Vector2DDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54E26B631B1AB5F6006AF5BB /* Vector2DDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54E26B711B1AB5F6006AF5BB /* Build configuration list for PBXNativeTarget "Vector2DDemoTests" */;
+			buildPhases = (
+				54E26B601B1AB5F6006AF5BB /* Sources */,
+				54E26B611B1AB5F6006AF5BB /* Frameworks */,
+				54E26B621B1AB5F6006AF5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E26B661B1AB5F6006AF5BB /* PBXTargetDependency */,
+			);
+			name = Vector2DDemoTests;
+			productName = Vector2DDemoTests;
+			productReference = 54E26B641B1AB5F6006AF5BB /* Vector2DDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54E26B431B1AB5F6006AF5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hiroaki Komatsu";
+				TargetAttributes = {
+					54E26B4A1B1AB5F6006AF5BB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					54E26B631B1AB5F6006AF5BB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 54E26B4A1B1AB5F6006AF5BB;
+					};
+				};
+			};
+			buildConfigurationList = 54E26B461B1AB5F6006AF5BB /* Build configuration list for PBXProject "Vector2DDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54E26B421B1AB5F6006AF5BB;
+			productRefGroup = 54E26B4C1B1AB5F6006AF5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54E26B4A1B1AB5F6006AF5BB /* Vector2DDemo */,
+				54E26B631B1AB5F6006AF5BB /* Vector2DDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54E26B491B1AB5F6006AF5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E26B5F1B1AB5F6006AF5BB /* LaunchScreen.xib in Resources */,
+				54E26B5C1B1AB5F6006AF5BB /* Images.xcassets in Resources */,
+				54E26B531B1AB5F6006AF5BB /* GameScene.sks in Resources */,
+				54E26B5A1B1AB5F6006AF5BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E26B621B1AB5F6006AF5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54E26B471B1AB5F6006AF5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E26B551B1AB5F6006AF5BB /* GameScene.swift in Sources */,
+				54E26B571B1AB5F6006AF5BB /* GameViewController.swift in Sources */,
+				54E26B511B1AB5F6006AF5BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E26B601B1AB5F6006AF5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E26B6B1B1AB5F6006AF5BB /* Vector2DDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54E26B661B1AB5F6006AF5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54E26B4A1B1AB5F6006AF5BB /* Vector2DDemo */;
+			targetProxy = 54E26B651B1AB5F6006AF5BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54E26B581B1AB5F6006AF5BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E26B591B1AB5F6006AF5BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54E26B5D1B1AB5F6006AF5BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E26B5E1B1AB5F6006AF5BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54E26B6C1B1AB5F6006AF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54E26B6D1B1AB5F6006AF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54E26B6F1B1AB5F6006AF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vector2DDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syake-labo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54E26B701B1AB5F6006AF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vector2DDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syake-labo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54E26B721B1AB5F6006AF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Vector2DDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syake-labo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vector2DDemo.app/Vector2DDemo";
+			};
+			name = Debug;
+		};
+		54E26B731B1AB5F6006AF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Vector2DDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syake-labo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vector2DDemo.app/Vector2DDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54E26B461B1AB5F6006AF5BB /* Build configuration list for PBXProject "Vector2DDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E26B6C1B1AB5F6006AF5BB /* Debug */,
+				54E26B6D1B1AB5F6006AF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E26B6E1B1AB5F6006AF5BB /* Build configuration list for PBXNativeTarget "Vector2DDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E26B6F1B1AB5F6006AF5BB /* Debug */,
+				54E26B701B1AB5F6006AF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54E26B711B1AB5F6006AF5BB /* Build configuration list for PBXNativeTarget "Vector2DDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E26B721B1AB5F6006AF5BB /* Debug */,
+				54E26B731B1AB5F6006AF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54E26B431B1AB5F6006AF5BB /* Project object */;
+}
