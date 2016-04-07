@@ -1,0 +1,31 @@
+# spritekit-demo
+SpriteKit を扱ったデモ for swift
+
+## AnimationDemo
+
+* キャラクターのテクスチャアニメーション
+* SKActionで実行や繰り返し処理の制御
+* 重力を設定したジャンプアクション
+
+　![](https://raw.github.com/wiki/syake/swift-demo/images/20150520172404.png?1)
+
+　※素材提供: [オオバコ](http://www.geocities.jp/zassoh2/index.htm "雑草小屋 りたーんず")
+
+## PhysicsDemo
+
+* 重力による落下運動と跳ね返り運動
+* ジャイロスコープによる重力切り替え
+* 個々のオブジェクトのUserDataにenergy値を持たせて自身を消す処理
+
+　![](https://raw.github.com/wiki/syake/swift-demo/images/20150520172420.png?1)
+
+## FlickDemo
+
+* フリック入力によるキャラクターの移動
+* フリック方法でキャラクターのアクションを切り替える
+* テキストアニメーション
+
+## Vector2DDemo
+
+* 2D反射ベクトルによる跳ね返り運動
+* 2D滑りベクトルによる壁に沿った運動
